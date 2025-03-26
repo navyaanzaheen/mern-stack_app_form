@@ -1,0 +1,8 @@
+Find the bin directory of your MongoDB installation (e.g., C:\Program Files\MongoDB\Server\6.0\bin). and paste this directory
+in environment variables system variables
+
+//for starting database use this command
+mongod --dbpath ./database
+
+//for server starting  
+nodemon index.js  
